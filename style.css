@@ -4,7 +4,136 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color:   #f5f5f5;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
+.celek {
+    margin: 50px auto;
+    width: 670px ;
+    height: 440px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 3px 6px 8px rgb(165, 162, 162);
+
+}
+
+.levy {padding: 30px;
+    position: relative;
+    flex-basis: 50%;
+    flex-shrink: 0;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+
+}
+
+.bota {position: absolute;
+    left: -70px;
+    bottom: 10px;
+
+}
+
+.levypopis {margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+
+}
+
+.cenaazaruka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+}
+
+.cena {font-size: 28px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.pravy {padding: 30px;
+    flex-basis: 50%;
+    flex-shrink: 0;
+    background-color: white;
+    position: relative;
+
+}
+
+h1 {font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.trida {font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+
+}
+
+.popis {font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #06d7c1;
+    margin-bottom: 30px;
+
+}
+
+h2 {font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.velikosti {display: flex;
+    padding-left: 0;
+
+}
+
+li {text-decoration: none;
+    display: inline-block;
+   
+    margin: 0 7px;
+    padding: 5px;
+    flex-shrink: 0;
+ 
+
+}
+
+.oznacene { border-radius: 50%;
+    border: 1px solid  #f15f42;
+
+}
+
+.dokosiku {text-decoration: none;
+    background-color:  #f15f42 ;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 14px;
+
+
+}
+
+
 
 /*
  BARVY
